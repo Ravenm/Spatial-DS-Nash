@@ -244,6 +244,7 @@ class DrawGeoJson(object):
         self.screen = screen  # window handle for pygame drawing
 
         self.polygons = []  # list of lists (polygons) to be drawn
+        self.adjustedPolygons = [] # new var that holds polygons post adjustment
 
         self.all_lats = []  # list for all lats so we can find mins and max's
         self.all_lons = []
@@ -304,13 +305,26 @@ class DrawGeoJson(object):
         Returns:
             None
         """
+        self.adjustedPolygons = [] # clear list
         black = (0, 0, 0)
         for poly in self.polygons:
             adjusted = []
             for p in poly:
                 x, y = p
                 adjusted.append(self.convertGeoToPixel(x, y))
+            self.adjustedPolygons.append(adjusted) # one liner added to fill adjusted polygons
             pygame.draw.polygon(self.screen, self.colors.get_random_color(), adjusted, 0)
+
+    def draw_poly_outline(self, poly):
+        """
+        draws a black outline around a polygon
+        Args:
+            poly a list of (x,y) cords
+
+        Returns:
+            None
+        """
+        pygame.draw.polygon(self.screen, (0,0,0,), poly, 3)
 
     def __update_bounds(self):
         """
@@ -469,17 +483,27 @@ if __name__ == '__main__':
     running = True
     while running:
         # gd.draw_polygons()
+        # added one line of code, one new var, and a new method
+        # code added to draw_polygons in DrawGeoJson to capture polygon x,y after adjustment
+        # new var located in DrawGeoJson adjustedPolygons is a list of post adjustment polygons
+        # new method located in DrawGeoJson draw_poly_outline takes a polygons x,y list and draws an outline
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
+            # check for mouse down
             if event.type == pygame.MOUSEBUTTONDOWN:
+                # clear screen
+                screen.fill((255, 255, 255))
+                # draw all the polygons again
                 gd.draw_polygons()
-                # if mouse down save x,y and redraw poly
-                # search for poly
-                # create new poly list
-                # draw new poly list
-                # check up down left right if for hits
-                # get label of poly check if it is a state
-                # draw with only outline
+                # get mouse location
+                x,y = pygame.mouse.get_pos()
+                # for all the adjusted polygons. these would be the true x,y cords
+                for poly in gd.adjustedPolygons:
+                    # test if the mouse was inside the polygon
+                    if point_inside_polygon(x,y,poly):
+                        # using the adjusted list draw a new polygon that is a black outline only
+                        gd.draw_poly_outline(poly)
+
             pygame.display.flip()
