@@ -396,6 +396,29 @@ class DrawingFacade(object):
             self.gd.add_polygon(poly)
 
 
+def create_bounding_box(poly):
+    """
+    creates a bounding box around a polygon
+    :param poly:
+    :return: none
+    """
+    minX = 1000
+    minY = 1000
+    maxX = 0
+    maxY = 0
+    for x,y in poly:
+        if x < minX:
+            minX = x
+        if x > maxX:
+            maxX = x
+        if y < minY:
+            minY = y
+        if y > maxY:
+            maxY = y
+    pointList = [(minX,minY),(maxX,minY),(maxX,maxY),(minX,maxY)]
+    pygame.draw.polygon(screen,(255,0,0),pointList,3)
+
+
 def point_inside_polygon(x, y, poly):
     """
     determine if a point is inside a given polygon or not
@@ -487,6 +510,7 @@ if __name__ == '__main__':
         # code added to draw_polygons in DrawGeoJson to capture polygon x,y after adjustment
         # new var located in DrawGeoJson adjustedPolygons is a list of post adjustment polygons
         # new method located in DrawGeoJson draw_poly_outline takes a polygons x,y list and draws an outline
+        # add dictionary to hold name and color for redraw
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -505,5 +529,5 @@ if __name__ == '__main__':
                     if point_inside_polygon(x,y,poly):
                         # using the adjusted list draw a new polygon that is a black outline only
                         gd.draw_poly_outline(poly)
-
+                        create_bounding_box(poly)
             pygame.display.flip()
