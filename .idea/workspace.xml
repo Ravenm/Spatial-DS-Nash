@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb4124d-09e9-4e76-b6ac-dca700f54376" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_3/1024x512.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_3/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignments/Program_3/main.py" afterPath="$PROJECT_DIR$/assignments/Program_3/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +18,7 @@
     <SUITE FILE_PATH="coverage/Spatial_DS_Nash$main.coverage" NAME="main Coverage Results" MODIFIED="1497553418835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/Program_1" />
     <SUITE FILE_PATH="coverage/Spatial_DS_Nash$read_crime_data.coverage" NAME="read_crime_data Coverage Results" MODIFIED="1497899509968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/Program_2" />
     <SUITE FILE_PATH="coverage/spatial_ds_nash$main.coverage" NAME="main Coverage Results" MODIFIED="1497468688653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/Program_1" />
-    <SUITE FILE_PATH="coverage/Spatial_DS_Nash$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1498158560619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/Program_3" />
+    <SUITE FILE_PATH="coverage/Spatial_DS_Nash$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1498158636153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/Program_3" />
     <SUITE FILE_PATH="coverage/Spatial_DS_Nash$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1497122113416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/assignment05-optional" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -60,8 +59,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/Program_2/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2074">
-              <caret line="122" column="25" lean-forward="false" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
+            <state relative-caret-position="475">
+              <caret line="145" column="16" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="68" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -69,15 +68,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/Program_3/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="159" column="4" lean-forward="false" selection-start-line="159" selection-start-column="4" selection-end-line="159" selection-end-column="4" />
+            <state relative-caret-position="407">
+              <caret line="197" column="41" lean-forward="true" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quake_data.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/Program_3/quake_data.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -87,9 +93,9 @@
             <state relative-caret-position="-2976">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1498158483393" expanded="true" signature="6:348701" ph="{&quot;mag&quot;: 7.2...}" />
-                <marker date="1498158483393" expanded="true" signature="28:348503" ph="{&quot;type&quot;: &quot;Point&quot;...}" />
-                <marker date="1498158483393" expanded="true" signature="57:348464" ph="[...]" />
+                <marker date="1498158637253" expanded="true" signature="6:348701" ph="{&quot;mag&quot;: 7.2...}" />
+                <marker date="1498158637253" expanded="true" signature="28:348503" ph="{&quot;type&quot;: &quot;Point&quot;...}" />
+                <marker date="1498158637253" expanded="true" signature="57:348464" ph="[...]" />
               </folding>
             </state>
           </provider>
@@ -627,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497899618900</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="quake plots">
+      <created>1498158610100</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1498158610100</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -664,7 +677,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working polygon map outliner" />
     <MESSAGE value="crime plot" />
-    <option name="LAST_COMMIT_MESSAGE" value="crime plot" />
+    <MESSAGE value="quake plots" />
+    <option name="LAST_COMMIT_MESSAGE" value="quake plots" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1016,36 +1030,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/Program_3/quake_data_condensed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2976">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498158637253" expanded="true" signature="6:348701" ph="{&quot;mag&quot;: 7.2...}" />
+            <marker date="1498158637253" expanded="true" signature="28:348503" ph="{&quot;type&quot;: &quot;Point&quot;...}" />
+            <marker date="1498158637253" expanded="true" signature="57:348464" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/Program_2/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="122" column="25" lean-forward="false" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
+        <state relative-caret-position="475">
+          <caret line="145" column="16" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="68" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/Program_3/quake_data_condensed.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2976">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1498158483393" expanded="true" signature="6:348701" ph="{&quot;mag&quot;: 7.2...}" />
-            <marker date="1498158483393" expanded="true" signature="28:348503" ph="{&quot;type&quot;: &quot;Point&quot;...}" />
-            <marker date="1498158483393" expanded="true" signature="57:348464" ph="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/Program_3/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="159" column="4" lean-forward="false" selection-start-line="159" selection-start-column="4" selection-end-line="159" selection-end-column="4" />
+        <state relative-caret-position="407">
+          <caret line="197" column="41" lean-forward="true" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/Program_3/quake_data.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

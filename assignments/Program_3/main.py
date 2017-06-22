@@ -157,7 +157,7 @@ if __name__ == '__main__':
     running = 1
     screen.blit(img, (0, 0))
     pygame.display.flip()
-    
+
     remoteData = get_quake_data(year)
     create_json(remoteData,'quake_data')
     condenseData = condense_data(remoteData)
@@ -196,6 +196,7 @@ if __name__ == '__main__':
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
+                pygame.image.save(screen, 'quake_data.png')
                 running = False
                 # if event.type == pygame.MOUSEBUTTONDOWN:
                 #     screen.fill((white))
