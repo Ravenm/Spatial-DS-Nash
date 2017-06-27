@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb4124d-09e9-4e76-b6ac-dca700f54376" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Junk/pymongoTest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/airports.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/airports_geo_json.geojson" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/airports_geo_json_test.geojson" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/airports_gj.geojson" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/countries.geo.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/country_codes.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/country_info.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/country_shapes_simplified.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/earthquakes-1960-2017.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/state_borders.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/world_cities_large.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/world_cities_small_w_pop.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/WorldData/world_volcanos.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_4/generate_airports_geojson.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Spatial-DS-Nash.iml" afterPath="$PROJECT_DIR$/.idea/Spatial-DS-Nash.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/Program_5/query_ideas.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,14 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Spatial_DS_Nash$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1497897012687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../spatial-ds-griffin/Resources/Dbscan_Ex" />
-    <SUITE FILE_PATH="coverage/Spatial_DS_Nash$main.coverage" NAME="main Coverage Results" MODIFIED="1497553418835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/Program_1" />
-    <SUITE FILE_PATH="coverage/Spatial_DS_Nash$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1498158636153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/Program_3" />
-    <SUITE FILE_PATH="coverage/spatial_ds_nash$pymongo.coverage" NAME="pymongo Coverage Results" MODIFIED="1498506684028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Junk" />
     <SUITE FILE_PATH="coverage/Spatial_DS_Nash$lists.coverage" NAME="lists Coverage Results" MODIFIED="1497116535447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/assignment05-optional" />
-    <SUITE FILE_PATH="coverage/Spatial_DS_Nash$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1497122113416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/assignment05-optional" />
+    <SUITE FILE_PATH="coverage/Spatial_DS_Nash$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1497897012687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../spatial-ds-griffin/Resources/Dbscan_Ex" />
+    <SUITE FILE_PATH="coverage/spatial_ds_nash$pymongo.coverage" NAME="pymongo Coverage Results" MODIFIED="1498506684028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Junk" />
+    <SUITE FILE_PATH="coverage/Spatial_DS_Nash$main.coverage" NAME="main Coverage Results" MODIFIED="1497553418835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/Program_1" />
     <SUITE FILE_PATH="coverage/Spatial_DS_Nash$read_crime_data.coverage" NAME="read_crime_data Coverage Results" MODIFIED="1497899509968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/Program_2" />
     <SUITE FILE_PATH="coverage/spatial_ds_nash$main.coverage" NAME="main Coverage Results" MODIFIED="1497468688653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/Program_1" />
+    <SUITE FILE_PATH="coverage/Spatial_DS_Nash$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1498158636153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/Program_3" />
+    <SUITE FILE_PATH="coverage/Spatial_DS_Nash$dictionaries.coverage" NAME="dictionaries Coverage Results" MODIFIED="1497122113416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/assignment05-optional" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -44,7 +28,7 @@
       <file leaf-file-name="lists.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/assignment05-optional/lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
+            <state relative-caret-position="1581">
               <caret line="93" column="27" lean-forward="false" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
               <folding />
             </state>
@@ -54,7 +38,7 @@
       <file leaf-file-name="dictionaries.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/assignment05-optional/dictionaries.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
+            <state relative-caret-position="1173">
               <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
@@ -64,7 +48,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/Program_1/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7920">
+            <state relative-caret-position="8976">
               <caret line="532" column="33" lean-forward="false" selection-start-line="506" selection-start-column="4" selection-end-line="532" selection-end-column="33" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -76,7 +60,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/Program_2/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2115">
+            <state relative-caret-position="2397">
               <caret line="145" column="16" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="68" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -88,7 +72,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/Program_3/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2820">
+            <state relative-caret-position="3196">
               <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -100,7 +84,7 @@
       <file leaf-file-name="pymongoTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Junk/pymongoTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="187">
               <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -109,21 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generate_airports_geojson.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignments/Program_4/generate_airports_geojson.py">
+      <file leaf-file-name="query_ideas.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/Program_5/query_ideas.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="airports_geo_json.geojson" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/Program_4/WorldData/airports_geo_json.geojson">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="10" column="64" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -161,6 +135,7 @@
         <option value="$PROJECT_DIR$/Junk/pymongoTest.py" />
         <option value="$PROJECT_DIR$/assignments/Program_4/geo_json_check.py" />
         <option value="$PROJECT_DIR$/assignments/Program_4/generate_airports_geojson.py" />
+        <option value="$PROJECT_DIR$/assignments/Program_5/query_ideas.md" />
       </list>
     </option>
   </component>
@@ -171,10 +146,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -191,40 +166,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spatial-ds-nash" />
+              <option name="myItemId" value="Spatial-DS-Nash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spatial-ds-nash" />
+              <option name="myItemId" value="Spatial-DS-Nash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spatial-ds-nash" />
+              <option name="myItemId" value="Spatial-DS-Nash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spatial-ds-nash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Junk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spatial-ds-nash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spatial-ds-nash" />
+              <option name="myItemId" value="Spatial-DS-Nash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -232,57 +194,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Program_4" />
+              <option name="myItemId" value="Program_5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spatial-ds-nash" />
+              <option name="myItemId" value="Spatial-DS-Nash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spatial-ds-nash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Program_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorldData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spatial-ds-nash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spatial-ds-nash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Program_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spatial-ds-nash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spatial-ds-nash" />
+              <option name="myItemId" value="Spatial-DS-Nash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -292,7 +214,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -628,10 +549,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17951483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -677,14 +598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assignments/assignment05-optional/dictionaries.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/Program_1/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8976">
@@ -895,7 +808,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/assignment05-optional/lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
+        <state relative-caret-position="1581">
           <caret line="93" column="27" lean-forward="false" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
           <folding />
         </state>
@@ -910,7 +823,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/assignment05-optional/dictionaries.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
+        <state relative-caret-position="1173">
           <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
@@ -932,7 +845,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/Program_1/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7920">
+        <state relative-caret-position="8976">
           <caret line="532" column="33" lean-forward="false" selection-start-line="506" selection-start-column="4" selection-end-line="532" selection-end-column="33" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -959,7 +872,7 @@
     <entry file="file://$PROJECT_DIR$/../skratch/main.py" />
     <entry file="file://$PROJECT_DIR$/assignments/Program_2/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2115">
+        <state relative-caret-position="2397">
           <caret line="145" column="16" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="68" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -981,7 +894,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/Program_3/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2820">
+        <state relative-caret-position="3196">
           <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -1003,17 +916,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/Program_4/WorldData/world_volcanos.geojson">
+    <entry file="file://$PROJECT_DIR$/assignments/Program_4/WorldData/world_volcanos.geojson" />
+    <entry file="file://$PROJECT_DIR$/assignments/Program_4/geo_json_check.py" />
+    <entry file="file://$PROJECT_DIR$/assignments/Program_4/WorldData/airports.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/Program_4/WorldData/airports_geo_json.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/Program_4/generate_airports_geojson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Junk/pymongoTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="187">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -1021,34 +949,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/Program_4/geo_json_check.py">
+    <entry file="file://$PROJECT_DIR$/assignments/Program_5/query_ideas.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/Program_4/WorldData/airports.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/Program_4/WorldData/airports_geo_json.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/Program_4/generate_airports_geojson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="64" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
           <folding />
         </state>
       </provider>
